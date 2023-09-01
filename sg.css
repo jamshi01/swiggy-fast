@@ -1,0 +1,243 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+.g-1{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+
+
+}
+.logo{
+    height: 60px;
+    width: auto;
+
+}
+.banner{
+    height: auto;
+    max-width: 100%;
+}
+.link{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    margin-top: 16px;
+
+
+}
+.link:hover{
+    color: #fc8019;
+}
+.signup{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 16px;
+    height: 9px;
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+
+}
+h2{
+    color: gray;
+    margin-top: 5px;
+}
+.locationinput{
+    width: 70%;
+    height: 25px;
+    color: gray;
+    margin: 40px auto auto 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid rgb(241,76,16);
+}
+.location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 303px;
+    left: 450px;
+    padding: 15px;
+    text-align: end;
+}
+ button:hover{
+    background-color: lightgrey;
+
+ }
+ .find{
+    background-color: #fc8019;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    line-height: 50px;
+    
+ }
+ .city{
+    font-size: 15px;
+    color: #9aabb2;
+    margin: 30px 0 10px 0;
+    text-transform: uppercase;
+ }
+ .citylist{
+    width: 570px;
+    list-style: none;
+    margin-top: 20px;
+    
+
+ }
+ .list{
+    margin: 0%;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+ }
+ 
+
+ 
+ .inf0{
+    margin: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    width: 100%;
+     background-color: #2b1e16;
+
+}
+    
+
+ 
+ .center{
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+
+ }
+ .hed{
+    color: white;
+    text-align: center;
+ }
+ .p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+ }
+ .rest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 96%;
+    
+
+}
+.rest img{
+    width: 50%;
+    margin-right: 40px;
+    
+
+
+
+}
+
+.rest .test h1{
+    font-size: 50px;
+    margin-top: 80px;
+    
+}
+.rest .test img{
+    margin-top: 22px;
+    width: 53%;
+    height: 52px;
+  
+}
+.footer{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 44px;
+  width: 93%;
+
+  
+
+}
+
+.las{
+    color: white;
+    cursor: pointer;
+}
+.las:hover{
+    transform: scale(1.025);
+}
+
+
+
+.footer .list{
+    margin-inline: 33px;
+    
+}
+.ama{
+    width: 15%;
+     
+    
+}
+.iim{
+    width: 100%;
+    height: 64px;
+    
+
+}
+.btt{
+    width: 15%;
+    border: none;
+
+}
+.btt:hover,.btt:focus,.btt:visited{
+    text-decoration: none;
+
+}
+.ll{
+
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 100%;
+    transition: transform 0.75s;
+}
+.ll:hover{
+   transform: scale(1.1);
+}
+
